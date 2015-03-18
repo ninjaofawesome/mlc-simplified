@@ -18,12 +18,25 @@ h5,
 h6 {
   font-weight: 700; }
 
-.intro-button {
-  width: 50%;
+a {
   -webkit-transition: all 700ms ease-out;
   -moz-transition: all 700ms ease-out;
   -o-transition: all 700ms ease-out;
   transition: all 700ms ease-out;
+  color: #ffb347;
+  text-decoration: none; }
+  a:hover, a:active, a:focus {
+    color: #ffcc99;
+    text-decoration: none; }
+  a:visited {
+    color: #ffb347; }
+
+.intro-button {
+  -webkit-transition: all 700ms ease-out;
+  -moz-transition: all 700ms ease-out;
+  -o-transition: all 700ms ease-out;
+  transition: all 700ms ease-out;
+  width: 50%;
   background-color: transparent;
   border: 2px solid #ffb347;
   color: #ffb347;
@@ -37,6 +50,27 @@ h6 {
   .intro-button:visited {
     color: #ffb347;
     border: 2px solid #ffb347; }
+
+.placeholder-box {
+  position: fixed;
+  height: 300px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -200px;
+  border: 2px solid #fff019; }
+
+.placeholder-title {
+  color: #333333;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 12.5%; }
+
+.placeholder-subtitle {
+  color: #333333;
+  text-align: center;
+  margin-top: 10%; }
 
 .intro-page {
   background-image: url(../images/background.jpg);

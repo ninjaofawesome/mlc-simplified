@@ -25,3 +25,16 @@ h5,
 h6 {
   font-weight: 700;
 }
+
+a{
+  @include link-transition(700ms);
+  color: $dk-bellini;
+  text-decoration: none;
+  &:hover, &:active, &:focus {
+    color: $lt-bellini;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $dk-bellini;
+  }
+}

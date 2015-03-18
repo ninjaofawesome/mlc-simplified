@@ -1,6 +1,6 @@
 .intro-button {
-  width: 50%;
   @include link-transition(700ms);
+  width: 50%;
   background-color: transparent;
   border: 2px solid $dk-bellini;
   color: $dk-bellini;

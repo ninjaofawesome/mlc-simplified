@@ -1,0 +1,24 @@
+.placeholder-box {
+  position: fixed;
+  height: 300px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -200px;
+  border: 2px solid $dk-yellow;
+
+}
+
+.placeholder-title {
+  color: $dk-gray;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 12.5%;
+}
+
+.placeholder-subtitle {
+  color: $dk-gray;
+  text-align: center;
+  margin-top: 10%;
+}
