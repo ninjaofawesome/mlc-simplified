@@ -1,0 +1,19 @@
+.intro-button {
+  width: 50%;
+  @include link-transition(700ms);
+  background-color: transparent;
+  border: 2px solid $dk-bellini;
+  color: $dk-bellini;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  margin: 5% 25% 0 25%;
+  &:hover, &:active {
+    color: $dk-yellow;
+    border: 2px solid $dk-yellow;
+  }
+  &:visited {
+    color: $dk-bellini;
+    border: 2px solid $dk-bellini;
+  }
+}

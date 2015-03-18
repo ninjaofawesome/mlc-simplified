@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'neutraface titling';
+  src: url('../fonts/neutraface/neutra2displaybold.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'neutraface';
+  src: url('../fonts/neutraface/neutra2displaylight.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+$mlc-type: 'neutraface', Futura, 'Trebuchet MS', Arial, sans-serif;
+
+body {
+  font-family: $mlc-type;
+  font-weight: 400;
+  font-size: 16px;
+  color: $dk-gray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}

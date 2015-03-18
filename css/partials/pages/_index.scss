@@ -1,0 +1,32 @@
+
+body {
+  background-image: url(../images/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: $background-white;
+}
+
+
+.intro-box {
+  position: fixed;
+  height: 300px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -200px;
+
+}
+
+.intro-title {
+  color: $dk-yellow;
+  text-align: center;
+  font-size: 3em;
+}
+
+.intro-subtitle {
+  color: $dk-bellini;
+  text-align: center;
+}
