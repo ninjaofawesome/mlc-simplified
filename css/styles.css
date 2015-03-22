@@ -31,6 +31,23 @@ a {
   a:visited {
     color: #ffb347; }
 
+.fa-link,
+.brand-link {
+  -webkit-transition: all 700ms ease-out;
+  -moz-transition: all 700ms ease-out;
+  -o-transition: all 700ms ease-out;
+  transition: all 700ms ease-out;
+  text-decoration: none;
+  color: #333333; }
+  .fa-link:hover, .fa-link:active, .fa-link:focus,
+  .brand-link:hover,
+  .brand-link:active,
+  .brand-link:focus {
+    color: #666666; }
+  .fa-link:visited,
+  .brand-link:visited {
+    color: #333333; }
+
 .intro-button {
   -webkit-transition: all 700ms ease-out;
   -moz-transition: all 700ms ease-out;
@@ -60,7 +77,7 @@ a {
   z-index: 10;
   height: 50px;
   width: 100%;
-  background-color: red;
+  background-color: white;
   margin: 0;
   padding: 0; }
 
@@ -70,17 +87,22 @@ a {
 .brand-logo {
   font-weight: 700;
   float: left;
-  margin-left: 5%; }
+  margin-left: 3%;
+  margin-top: 0;
+  padding: 10px 0; }
 
 .nav-guide {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  margin-right: 3%;
+  margin-top: 0;
+  padding: 15px 0;
   float: right; }
 
 .nav-links {
   display: inline;
-  font-weight: 700; }
+  font-weight: 900;
+  padding-right: 2px;
+  font-size: 1.5em; }
 
 .placeholder-box {
   position: fixed;

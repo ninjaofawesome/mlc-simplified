@@ -38,3 +38,18 @@ a{
     color: $dk-bellini;
   }
 }
+
+.fa-link,
+.brand-link {
+  @include link-transition(700ms);
+  text-decoration: none;
+  color: $dk-gray;
+  &:hover, &:active, &:focus{
+    color: $md-gray;
+  }
+  &:visited {
+    color: $dk-gray;
+  }
+
+}
+
