@@ -160,10 +160,18 @@ a {
   color: #ffb347;
   text-align: center; }
 
-.headline-section {
-  height: 100px;
-  width: 400px;
-  margin: 0 auto; }
+.stretch-view {
+  width: 100vw;
+  margin: 0;
+  padding: 0; }
+
+.title-box {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.title-box-item {
+  max-width: 50%; }
 
 .work-box {
   position: absolute;
