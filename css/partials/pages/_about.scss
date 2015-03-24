@@ -1,31 +1,15 @@
-.stretch-view {
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-}
 
-.title-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.title-box-item {
-  max-width: 50%;
+.left-marg{
+  margin-left: 15%;
+  @include breakpoint(mobile){
+    margin-left: 0;
+  }
 }
 
 .work-box{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 400px;
-  height: 300px;
-  margin: 5% auto auto auto;
   padding: 5%;
-
 }
+
 .circle {
   position: absolute;
   left: 45%;
