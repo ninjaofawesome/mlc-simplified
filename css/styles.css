@@ -57,6 +57,9 @@ a {
   .brand-link:visited {
     color: #333333; }
 
+.press-title {
+  color: white; }
+
 .intro-button {
   -webkit-transition: all 700ms ease-out;
   -moz-transition: all 700ms ease-out;
@@ -190,3 +193,25 @@ a {
 
 .work-text {
   margin: 2% 5%; }
+
+.press-box {
+  width: 175px;
+  height: 175px;
+  margin: 25%;
+  background: white; }
+  .press-box.bellini {
+    background: #ffb347; }
+  .press-box.yellow {
+    background: #fff019; }
+  .press-box.blue {
+    background: #70ccc6; }
+  .press-box.pink {
+    background: #ff949e; }
+  .press-box.gray {
+    background: #666666; }
+  .press-box.salmon {
+    background: #fd885c; }
+
+.press-title {
+  padding: 62px 20%;
+  text-transform: uppercase; }

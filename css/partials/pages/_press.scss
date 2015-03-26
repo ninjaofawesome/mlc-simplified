@@ -1,0 +1,31 @@
+.press-box {
+  width: 175px;
+  height: 175px;
+  margin: 25%;
+  background: $white;
+  &.bellini {
+    background: $dk-bellini;
+  }
+  &.yellow {
+    background: $dk-yellow;
+  }
+  &.blue {
+    background: $dk-blue;
+  }
+  &.pink {
+    background: $dk-pink;
+  }
+  &.gray {
+    background: $md-gray;
+  }
+  &.salmon {
+    background: $salmon;
+  }
+
+}
+
+
+.press-title {
+  padding: 62px 20%;
+  text-transform: uppercase;
+}
