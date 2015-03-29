@@ -48,12 +48,17 @@ a{
   text-align: center;
 }
 
+.bold {
+  font-weight: 900;
+}
+
 .section-headline{
   font-size: 4em;
 }
 
 .fa-link,
-.brand-link {
+.brand-link,
+.foot-link {
   @include link-transition(700ms);
   text-decoration: none;
   color: $dk-gray;

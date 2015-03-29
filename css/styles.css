@@ -37,11 +37,15 @@ a {
 .centered {
   text-align: center; }
 
+.bold {
+  font-weight: 900; }
+
 .section-headline {
   font-size: 4em; }
 
 .fa-link,
-.brand-link {
+.brand-link,
+.foot-link {
   -webkit-transition: all 700ms ease-out;
   -moz-transition: all 700ms ease-out;
   -o-transition: all 700ms ease-out;
@@ -51,10 +55,14 @@ a {
   .fa-link:hover, .fa-link:active, .fa-link:focus,
   .brand-link:hover,
   .brand-link:active,
-  .brand-link:focus {
+  .brand-link:focus,
+  .foot-link:hover,
+  .foot-link:active,
+  .foot-link:focus {
     color: #666666; }
   .fa-link:visited,
-  .brand-link:visited {
+  .brand-link:visited,
+  .foot-link:visited {
     color: #333333; }
 
 .press-title {
@@ -81,8 +89,9 @@ a {
     border: 2px solid #ffb347; }
 
 .container {
-  padding: 0;
-  margin: 0; }
+  padding: 0 0 50px 0;
+  margin: 0;
+  height: 100%; }
 
 .navigation {
   position: fixed;
@@ -93,8 +102,19 @@ a {
   margin: 0;
   padding: 0; }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  height: 40px;
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  padding: 0; }
+
 .content {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .brand-logo {
   font-weight: 700;
@@ -115,6 +135,15 @@ a {
   font-weight: 900;
   padding-right: 2px;
   font-size: 1.5em; }
+
+.foot-guide {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+.foot-links {
+  display: inline;
+  margin: 0 2.5%; }
 
 .placeholder-box {
   position: fixed;

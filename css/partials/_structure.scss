@@ -1,6 +1,7 @@
 .container{
-  padding: 0;
+  padding: 0 0 50px 0;
   margin: 0;
+  height: 100%;
 }
 .navigation {
   position: fixed;
@@ -12,8 +13,20 @@
   padding: 0;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  height: 40px;
+  width: 100%;
+  background-color: $white;
+  margin: 0;
+  padding: 0;
+}
+
 .content {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .brand-logo{
@@ -37,6 +50,17 @@
   font-weight: 900;
   padding-right: 2px;
   font-size: 1.5em;
+}
+
+.foot-guide {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.foot-links {
+  display: inline;
+  margin: 0 2.5%;
 }
 
 .placeholder-box {
