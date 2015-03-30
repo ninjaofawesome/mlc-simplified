@@ -223,6 +223,14 @@ a {
 .work-text {
   margin: 2% 5%; }
 
+.press-container {
+  width: 75%;
+  height: 90%;
+  margin: 0 17%; }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .press-container {
+      margin: 0; } }
+
 .press-box {
   width: 175px;
   height: 175px;
@@ -244,3 +252,6 @@ a {
 .press-title {
   padding: 62px 20%;
   text-transform: uppercase; }
+
+.first {
+  margin-left: 10%; }

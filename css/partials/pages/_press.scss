@@ -1,3 +1,13 @@
+.press-container{
+  width: 75%;
+  height: 90%;
+  margin: 0 17%;
+  @include breakpoint(mobile){
+    margin: 0;
+  }
+
+}
+
 .press-box {
   width: 175px;
   height: 175px;
@@ -28,4 +38,8 @@
 .press-title {
   padding: 62px 20%;
   text-transform: uppercase;
+}
+
+.first {
+  margin-left: 10%;
 }
