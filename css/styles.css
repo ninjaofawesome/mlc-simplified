@@ -88,6 +88,27 @@ a {
     color: #ffb347;
     border: 2px solid #ffb347; }
 
+.drop-button {
+  -webkit-transition: all 700ms ease-out;
+  -moz-transition: all 700ms ease-out;
+  -o-transition: all 700ms ease-out;
+  transition: all 700ms ease-out;
+  float: right;
+  width: 25%;
+  background-color: #ffcc99;
+  border: 2px solid #ffb347;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 2%; }
+  .drop-button:hover, .drop-button:active {
+    color: #fff019;
+    border: 2px solid #fff777; }
+  .drop-button:visited {
+    color: #ffcc99;
+    border: 2px solid #ffb347; }
+
 .container {
   padding: 0 0 50px 0;
   margin: 0;
@@ -165,6 +186,11 @@ a {
   color: #333333;
   text-align: center;
   margin-top: 10%; }
+
+.drop-menu {
+  position: absolute;
+  right: 0;
+  background-color: red; }
 
 .intro-page {
   background-image: url(../images/background.jpg);

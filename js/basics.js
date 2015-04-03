@@ -3,9 +3,9 @@ $(document).ready(function(){
 
   //change function for touch events, not click.
   function toggleMenu(){
-    $('.dropdown-button').show();
-    $('.dropdown-button').click(function(){
-      $('.dropdown-menu').slideToggle();
+    $('.drop-button').show();
+    $('.drop-button').click(function(){
+      $('.drop-menu').toggle();
 
     })
 
@@ -19,7 +19,9 @@ $(document).ready(function(){
         $('.nav-links').hide();
         toggleMenu();
       } else {
+        $('.dropdown-button, .dropdown-menu').hide();
         $('.nav-links').show();
+
       }
     }
 
