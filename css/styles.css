@@ -189,8 +189,14 @@ a {
 
 .drop-menu {
   position: absolute;
-  right: 0;
-  background-color: red; }
+  right: 100px;
+  top: 50px;
+  background-color: white;
+  text-align: center; }
+
+.drop-list {
+  list-style-type: none;
+  text-align: center; }
 
 .intro-page {
   background-image: url(../images/background.jpg);

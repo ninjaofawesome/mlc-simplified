@@ -1,15 +1,7 @@
 $(document).ready(function(){
   console.log('the basics have loaded');
 
-  //change function for touch events, not click.
-  function toggleMenu(){
-    $('.drop-button').show();
-    $('.drop-button').click(function(){
-      $('.drop-menu').toggle();
 
-    })
-
-  }
 
   function checkWidth() {
       var windowSize = $(window).width();
@@ -19,8 +11,19 @@ $(document).ready(function(){
         $('.nav-links').hide();
         toggleMenu();
       } else {
-        $('.dropdown-button, .dropdown-menu').hide();
+        $('.drop-button, .drop-menu').hide();
         $('.nav-links').show();
+
+        //change function for touch events, not click.
+        function toggleMenu(){
+          $('.drop-button').fadeIn();
+          $('.drop-list').hide();
+          $('.drop-button').click(function(){
+            $('.drop-list').slideToggle(600);
+
+          })
+
+        }
 
       }
     }
