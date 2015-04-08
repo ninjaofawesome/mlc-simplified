@@ -9,22 +9,16 @@ $(document).ready(function(){
       if ($(window).width() >= 1 && $(window).width() <=768) {
        console.log('smallest');
         $('.nav-links').hide();
-        toggleMenu();
+        $('.drop-button').fadeIn();
+
+
+        $('.drop-button').on('tap', function(){
+          $('.drop-list').slideToggle(600);
+        }
+
       } else {
         $('.drop-button, .drop-menu').hide();
         $('.nav-links').show();
-
-        //change function for touch events, not click.
-        function toggleMenu(){
-          $('.drop-button').fadeIn();
-          $('.drop-list').hide();
-          $('.drop-button').click(function(){
-            $('.drop-list').slideToggle(600);
-
-          })
-
-        }
-
       }
     }
 
