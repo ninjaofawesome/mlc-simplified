@@ -9,17 +9,16 @@ $(document).ready(function(){
       if ($(window).width() >= 1 && $(window).width() <=768) {
        console.log('smallest');
         $('.nav-links').hide();
-
-        $('.btn.drop-button').show();
         $('.drop-menu').hide();
 
-        function tapScreen(){
-          // $('.drop-button').on('tap', function(){
-          //   $('.drop-list').slideToggle(600);
-          // }
-        }
+        $('.drop-button').show().click(function(){
+          $('.drop-menu').slideToggle(1000);
+        });
 
-        tapScreen();
+        $('.footer').hide();
+
+
+
 
       } else {
         $('.drop-button, .drop-menu').hide();
