@@ -31,16 +31,28 @@ $(document).ready(function(){
 
     function faqButton(){
       var answer = $('.answer');
-      var up = $('.show-less');
-      var icon=$('i');
+      var up = $('.arrow-icon.up');
+      var down = $('.arrow-icon.down');
+      var icon=$('.arrow-icon.down').attr('id');
+      var iconUp=$('.arrow-icon.up').attr('id');
       var buttonId= $(this).id;
 
       answer.hide();
       up.hide();
 
-      icon.click(function(){
-        console.log(buttonId);
+
+
+      $('.question-arrow').click(function(){
+        up.delay(600).fadeIn();
+        down.fadeOut(600);
+        answer.slideToggle(600);
       });
+
+
+
+      // icon.click(function(){
+      //   alert('hi');
+      // });
 
     }
 

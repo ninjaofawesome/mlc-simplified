@@ -287,3 +287,11 @@ a {
 
 .first {
   margin-left: 10%; }
+
+.question-arrow, .question {
+  display: inline; }
+
+.question-arrow {
+  height: 100px;
+  width: 100px;
+  cursor: pointer; }
