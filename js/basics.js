@@ -28,6 +28,23 @@ $(document).ready(function(){
 
     checkWidth();
     $(window).resize(checkWidth);
+
+    function faqButton(){
+      var answer = $('.answer');
+      var up = $('.show-less');
+      var icon=$('i');
+      var buttonId= $(this).id;
+
+      answer.hide();
+      up.hide();
+
+      icon.click(function(){
+        console.log(buttonId);
+      });
+
+    }
+
+    faqButton();
 });
 
 
