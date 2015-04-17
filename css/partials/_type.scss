@@ -44,6 +44,25 @@ a{
 
 }
 
+.white{
+  @include link-transition(700ms);
+  color: $white;
+  text-decoration: none;
+  position: absolute;
+  bottom: 18%;
+  left: 30%;
+  &:hover, &:active, &:focus {
+    color: $white;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $white;
+  }
+
+}
+
+
+
 .centered {
   text-align: center;
 }
