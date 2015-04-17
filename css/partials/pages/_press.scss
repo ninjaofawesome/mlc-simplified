@@ -1,8 +1,18 @@
 .press-container{
-  width: 75%;
+
   height: 90%;
-  margin: 0 17%;
+  margin: 0 12.5%;
+  @include breakpoint(large){
+    width: 1068px;
+  }
+  @include breakpoint(desktop){
+    width: 768px;
+  }
+  @include breakpoint(tablet){
+    width: 480px;
+  }
   @include breakpoint(mobile){
+    width: 320px;
     margin: 0;
   }
 

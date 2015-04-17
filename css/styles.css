@@ -272,11 +272,20 @@ a {
   margin: 2% 5%; }
 
 .press-container {
-  width: 75%;
   height: 90%;
-  margin: 0 17%; }
+  margin: 0 12.5%; }
+  @media all and (min-width: 1200px) {
+    .press-container {
+      width: 1068px; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .press-container {
+      width: 768px; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .press-container {
+      width: 480px; } }
   @media all and (min-width: 480px) and (max-width: 767px) {
     .press-container {
+      width: 320px;
       margin: 0; } }
 
 .press-box {
