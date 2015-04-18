@@ -293,6 +293,10 @@ a {
   height: 175px;
   margin: 25%;
   background: white; }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .press-box {
+      width: 160px;
+      height: 160px; } }
   .press-box.bellini {
     background: #ffb347; }
   .press-box.yellow {

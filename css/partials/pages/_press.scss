@@ -21,6 +21,10 @@
 .press-box {
   width: 175px;
   height: 175px;
+  @include breakpoint(mobile){
+    width: 160px;
+    height: 160px;
+  }
   margin: 25%;
   background: $white;
   &.bellini {
@@ -41,6 +45,7 @@
   &.salmon {
     background: $salmon;
   }
+
 
 }
 
