@@ -39,3 +39,24 @@
   }
 
 }
+
+.button-slide-up {
+  @include link-transition(700ms);
+  width: 25%;
+  background-color: $lt-bellini;
+  border: 2px solid $dk-bellini;
+  color: $white;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 2%;
+  &:hover, &:active {
+    color: $dk-yellow;
+    border: 2px solid $lt-yellow;
+  }
+  &:visited {
+    color: $lt-bellini;
+    border: 2px solid $dk-bellini;
+  }
+
+}

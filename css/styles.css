@@ -125,6 +125,26 @@ a {
     color: #ffcc99;
     border: 2px solid #ffb347; }
 
+.button-slide-up {
+  -webkit-transition: all 700ms ease-out;
+  -moz-transition: all 700ms ease-out;
+  -o-transition: all 700ms ease-out;
+  transition: all 700ms ease-out;
+  width: 25%;
+  background-color: #ffcc99;
+  border: 2px solid #ffb347;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 2%; }
+  .button-slide-up:hover, .button-slide-up:active {
+    color: #fff019;
+    border: 2px solid #fff777; }
+  .button-slide-up:visited {
+    color: #ffcc99;
+    border: 2px solid #ffb347; }
+
 .container {
   padding: 0 0 50px 0;
   margin: 0;
@@ -323,4 +343,7 @@ a {
 .question-arrow {
   height: 100px;
   width: 100px;
+  cursor: pointer; }
+
+.questionBox {
   cursor: pointer; }
