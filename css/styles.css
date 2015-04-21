@@ -341,9 +341,9 @@ a {
   display: inline; }
 
 .question-arrow {
-  height: 100px;
-  width: 100px;
-  cursor: pointer; }
+  height: 50px;
+  width: 50px;
+  margin: 0 0 10px 0; }
 
 .questionBox {
   cursor: pointer;
