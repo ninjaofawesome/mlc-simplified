@@ -32,7 +32,8 @@ $(document).ready(function(){
     function faqButton(){
       var answer = $('.answer');
       var up = $('.arrow-icon.up');
-      var down = $('.arrow-icon.down');
+      var buttonId= $(this).id;
+      var down = $('.questionBox');
       var icon=$('.arrow-icon.down').attr('id');
       var iconUp=$('.arrow-icon.up').attr('id');
       var buttonId= $(this).id;
@@ -43,29 +44,26 @@ $(document).ready(function(){
       buttonUp.hide();
       up.hide();
 
+      $('.questionBox').click(function(){
+        var myBox = $(this);
+        myBox.children('.answer').slideToggle();
 
-
-      $('.down').click(function(){
-        answer.addClass('show-me');
-        if(answer.hasClass('show-me')){
-          down.fadeOut();
-          up.fadeIn();
-          answer.slideDown(600, function(){
-            buttonUp.fadeIn();
-          });
-
-        }
+        // var myId = $(this).attr('id');
+        // var myBox= $(this).attr('class');
+        // var myItem = myBox + myId;
+        // myBox.children('.answer').show();
       });
 
-      buttonUp.click(function(){
-        answer.removeClass('show-me');
-        $('.button-slide-up').fadeOut();
-        answer.slideUp(600, function(){
-          up.fadeOut(400);
-          down.delay(400).fadeIn();
+      // $('.button-slide-up').click(function(){
+      //   $(this).parent('.answer').slideUp();
+      //   // answer.removeClass('show-me');
+      //   // $('.button-slide-up').fadeOut();
+      //   // answer.slideUp(600, function(){
+      //   //   up.fadeOut(400);
+      //   //   down.delay(400).fadeIn();
 
-        });
-      });
+      //   // });
+      // });
 
       // $('.button-slide-up').hide();
 
