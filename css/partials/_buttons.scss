@@ -1,20 +1,23 @@
-.intro-button {
+.enter-button {
   @include link-transition(700ms);
-  width: 50%;
-  background-color: transparent;
-  border: 2px solid $dk-bellini;
-  color: $dk-bellini;
+  width: 100%;
+  background-color: $lt-bellini;
+  border: 2px solid $white;
+  color: $white !important;
   font-weight: 700;
+  font-size: 1.25em;
   text-decoration: none;
   text-align: center;
-  margin: 5% 25% 0 25%;
+  position: absolute;
+  bottom: 0;
   &:hover, &:active {
-    color: $dk-yellow;
-    border: 2px solid $dk-yellow;
+    background-color: $dk-blue;
+    color: $blue !important;
+    border: 2px solid $blue;
   }
   &:visited {
-    color: $dk-bellini;
-    border: 2px solid $dk-bellini;
+    color: $white !important;
+    border: 2px solid $white;
   }
 }
 
