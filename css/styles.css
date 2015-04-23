@@ -364,3 +364,26 @@ a {
 .questionBox {
   cursor: pointer;
   margin: 2.5% 0; }
+
+.work-text {
+  margin: 2% 5%; }
+
+.bio-photo {
+  width: 250px;
+  height: auto;
+  margin: 5% 10%; }
+
+.logo-photo {
+  width: 300px;
+  height: auto;
+  margin: 5% 10%; }
+
+.bio-title {
+  font-weight: 900;
+  margin: 2.5% 5% 1% 5%; }
+
+.bio-paragraph {
+  text-align: justify;
+  margin: 0 5%; }
+  .bio-paragraph.first {
+    margin: 5% 5% 0 5%; }
