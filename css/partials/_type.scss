@@ -58,6 +58,14 @@ a{
   &:visited {
     color: $white;
   }
+  @include breakpoint(tablet){
+    bottom: 25%;
+  }
+  @include breakpoint(mobile){
+    bottom: 25%;
+  }
+
+
 
 }
 
