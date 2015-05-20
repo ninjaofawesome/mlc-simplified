@@ -8,6 +8,9 @@
 
 .work-box{
   padding: 5%;
+  &.bottom {
+    padding-bottom: 10%;
+  }
 }
 
 .circle {
