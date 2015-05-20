@@ -56,20 +56,26 @@
   font-weight: 700;
   font-size: 1.5em;
   text-align: center;
-  @include breakpoint(large){
-    text-align: left;
-    font-size: 2.5em;
-  }
-
-  &.right {
-    @include breakpoint(large){
-      text-align: right;
-      font-size: 2.5em;
-    }
-
-  }
-
 }
+
+// .testimonial {
+//   font-weight: 700;
+//   font-size: 1.5em;
+//   text-align: center;
+//   @include breakpoint(large){
+//     text-align: left;
+//     font-size: 2.5em;
+//   }
+
+//   &.right {
+//     @include breakpoint(large){
+//       text-align: right;
+//       font-size: 2.5em;
+//     }
+
+//   }
+
+// }
 
 .testimonial-title {
   font-weight: 700;
