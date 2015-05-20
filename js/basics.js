@@ -11,8 +11,10 @@ $(document).ready(function(){
         $('.nav-links').hide();
         $('.drop-menu').hide();
 
-        $('.drop-button').show().click(function(){
+        $('.drop-button').show();
+        $('.drop-button').click(function(){
           $('.drop-menu').slideToggle(1000);
+
         });
 
         $('.footer').hide();
