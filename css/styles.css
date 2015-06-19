@@ -90,6 +90,10 @@ a {
 .press-title {
   color: white; }
 
+.social-media {
+  font-size: 1.25em;
+  padding: 0 2%; }
+
 .enter-button {
   -webkit-transition: all 700ms ease-out;
   -moz-transition: all 700ms ease-out;
