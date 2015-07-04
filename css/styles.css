@@ -94,6 +94,9 @@ a {
   font-size: 1.25em;
   padding: 0 2%; }
 
+.bottom-text {
+  padding-bottom: 100px; }
+
 .enter-button {
   -webkit-transition: all 700ms ease-out;
   -moz-transition: all 700ms ease-out;
